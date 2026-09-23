@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         var _btnExplisit1 = findViewById<Button>(R.id.btnExplisit1)
         _btnExplisit1.setOnClickListener {
-            val intent = Intent(this@MainActivity, class.java)
+            val intent = Intent(this@MainActivity, MainActivity2::class.java)
             startActivity(intent)
         }
     }
